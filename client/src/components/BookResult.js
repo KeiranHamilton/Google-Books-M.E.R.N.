@@ -67,7 +67,7 @@ class BookResult extends React.Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button type="button" name="view">
+                <button type="button" class="result-button" name="view">
                   View
                 </button>
               </a>
@@ -75,6 +75,7 @@ class BookResult extends React.Component {
             {// if this.props.path is "/" display save button else display Delete button
             this.props.path === "/" ? (
               <button
+                class="result-button"
                 type="button"
                 name="save"
                 onClick={this.handleSaveClick}
