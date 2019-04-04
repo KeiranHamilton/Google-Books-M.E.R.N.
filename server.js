@@ -13,7 +13,8 @@ if (process.env.NODE_ENV === "production") {
 
 const mongoose = require("mongoose");
 const mongoURL =
-  process.env.PROD_MONGODB || "mongodb://localhost/GoogleBooks&React";
+  process.env.PROD_MONGODB ||
+  "mongodb://keiranhamilton:love4kalli@ds117858.mlab.com:17858/heroku_1q2d7w9h";
 mongoose
   .connect(mongoURL, { useNewUrlParser: true })
   .then(() => {

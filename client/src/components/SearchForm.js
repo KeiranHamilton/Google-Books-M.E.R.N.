@@ -5,10 +5,7 @@ function SearchForm(props) {
     <div id="searchContainer">
       <h3>Book Search</h3>
       <form id="bookSearch">
-        <label htmlFor="bookInput" form="bookSearch">
-          Enter a book to search:
-        </label>
-        <br />
+        <label htmlFor="bookInput" form="bookSearch" />
         <input
           type="text"
           name="bookInput"
