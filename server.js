@@ -17,7 +17,6 @@ const mongoURL =
   "mongodb://keiranhamilton:love4kalli@ds117858.mlab.com:17858/heroku_1q2d7w9h";
 
 mongoose.Promise = global.Promise;
-
 mongoose
   .connect(mongoURL, { useNewUrlParser: true })
   .then(() => {
